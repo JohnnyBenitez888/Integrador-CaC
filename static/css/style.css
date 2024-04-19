@@ -1,12 +1,4 @@
-/* Repaso CSS 1:	Eliminar la decoración de los 
-hipervínculos, agregar color y tamaño de 
-fuente a la etiqueta <h2></h2> */
-
-/* “:root”, es un selector especial
- que se utiliza principalmente 
- para definir variables personalizadas de CSS */
-
- :root{
+:root{
     --primary-color: #9f3647;
     --bg-color:#181419;
     --secondary-color:#ffc098;
@@ -95,14 +87,6 @@ a{
     object-fit: cover;
  }
 
-/*Repaso  CSS 2: Unidades de medida. Colores CSS.
-  Fondos en CSS. Fuentes y tipografías. 
-  Estilos para textos y listas. Íconos --------------------------*/
-
-/* Se incorporó en el index.html los links para referenciar fuente externa. */
-/* Se agregó la etiqueta <link> que se utiliza para especificar el ícono
-(favicon) que se muestra en la pestaña del navegador o en la barra de direcciones */
-
 body{
     background-color: var(--bg-color);
     font-family: var(--primary-font);    
@@ -114,16 +98,11 @@ body{
     background-position: center;
     height: 100vh;/*alto*/
     box-shadow: inset 0 0 0 2000px rgba(84, 84, 84, 0.5);
+    display: flex; /*contenedor flexible que organiza a sus elementos hijos*/
+    justify-content: center;
+    align-items: center;
 }
 
-/* 
-Repaso CSS 3 – PLAN DE ESTUDIOS: Modelo de caja y 
-posicionamiento. Modelo de caja y propiedades.
-Posicionamiento y visualización.  */
-
-/* Estilo al encabezado, agregar estilos por el selector de clase:
-color de fondo, color fuente, posición del 
-encabezado, ancho y z-index -------------------------------------------*/
-
-/*no tenemos mucha especificidad*/
-/*selectores de clase*/
+.card-banner container{
+   
+}
