@@ -130,3 +130,32 @@ body {
    font-weight: 400;
    margin-bottom: 1rem;
 }
+
+.btn-cac{
+   padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    outline: none; /* Esto elimina cualquier borde de enfoque predeterminado */
+    transition:  background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-cac:hover{
+   background-color: var(--primary-color);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+}
+
+@keyframes pulse{
+   0%{
+       transform: scale(1);
+   }50%{
+       transform: scale(1.1);
+   }100%{
+       transform: scale(1);
+   }
+}
+.btn-cac:hover{
+   animation: pulse 0.5s infinite alternate;/* palpito infinito*/
+}
