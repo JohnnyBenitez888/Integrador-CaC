@@ -170,3 +170,8 @@ footer{
 .listaFooter{
    font-size: 19px;
 }
+
+#search{
+   display: flex;
+   flex-direction: column;
+}
